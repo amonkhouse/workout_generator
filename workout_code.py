@@ -13,4 +13,5 @@ exercises = ["squats",
 
 chosen_exercises = random.sample(exercises, 5)
 
-print(chosen_exercises)
+for i, exercise in enumerate(chosen_exercises, 1):
+    print(f"{i}. {exercise}")
